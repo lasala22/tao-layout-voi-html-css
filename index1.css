@@ -1,0 +1,40 @@
+#header {
+    background-color: violet;
+    height: 100px;
+}
+#main {
+    background-color: red;
+    height: 500px;
+    float: left;
+    width: 70%;
+    overflow: auto;
+    text-align: center;
+}
+#side-bar {
+    background-color: seagreen;
+    height: 500px;
+    float: left;
+    width: 30%;
+}
+#footer {
+    background-color: tan;
+    height: 100px;
+    clear: both;
+}
+body {
+    background-image: url(img/dcu2kfw-fcd88f19-3e3a-4b15-9757-0091704e628f.jpg);
+}
+#header, #main, #side-bar, #footer {
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+.i1 {
+    height: 100px;
+}
+.i2 {
+    width: 100%;
+    height: 80%;
+}
